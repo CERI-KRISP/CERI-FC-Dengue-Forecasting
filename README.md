@@ -2,7 +2,7 @@
 
 ## Team and Contributors
 
-**CERI Forecasting Club:**  
+**Team name: CERI Forecasting Club:**  
 
 *Team members: Jenicca Poongavanan, Monika Moir, Gaspary Mwanyika, Graeme Dor, Houriiyah Tegally*  
 
