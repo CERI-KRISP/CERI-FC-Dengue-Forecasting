@@ -33,13 +33,18 @@ A brief description of the contents and purpose of each folder and file in the r
 
 A list of all libraries and packages used to process the data and train your model:
 
-- `pandas`
-
-- `numpy`
- 
+- `tidyverse`
+- `lubridate`
 - `scikit-learn`
- 
-- `prophet`
+- `tsibble`
+- `feasts`
+- `fable`
+- `fabletools`
+- `readr`
+- `ggplot2`
+- `mgcv`
+- `Metrics`
+- `randomForest`
 
 ---
 
