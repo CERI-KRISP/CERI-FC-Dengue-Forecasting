@@ -8,7 +8,7 @@
 
 <sub>
 <sup>1</sup>Centre for Epidemic Response and Innovation (CERI), School of Data Science and Computational Thinking, Stellenbosch University, Stellenbosch, South Africa
-<sub>
+</sub>
 
 ---
 
