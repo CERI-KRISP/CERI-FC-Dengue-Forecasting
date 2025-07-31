@@ -53,12 +53,10 @@ A list of all libraries and packages used to process the data and train your mod
 - Climate.csv  
 
 ### Data preprocessing
-- Describe how the data was cleaned and transformed.  
+- For the random forest model, the climate variables used (med temperature, med precipitation and med rel humidity) were lagged by 8 weeks, and states were clustered into 4 clusters based on climate similarity to account for geographic effects. Dates were transformed into a seasonality parameter by taking the cosine and sine of the week.  Predicted case values were smoothed over a 16 week window (aligned center). 
 
 ### Variable selection
-- Explain how predictors were chosen.
-    
-- Link to relevant code or analysis section.
+Predictors were chosen based on optimal model performances by trial-and-error. For random forest model, climatic predictors included med temperature, med precipitation and med rel humidity.
 
 ---
 
@@ -68,6 +66,8 @@ A list of all libraries and packages used to process the data and train your mod
 - Describe model architecture or algorithms used.
     
 - Specify any cross-validation or time series split methods.
+
+- For the random forest model, we ran a random forest regresion of 1000 iterations with the state as a fixed effect. 
 
 ### Hyperparameter optimization
 - Detail any grid search, Bayesian optimization, or manual tuning used.
