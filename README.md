@@ -21,7 +21,7 @@ A brief description of the contents and purpose of each folder and file in the r
 ├── notebooks/             # Jupyter/R notebooks used for exploratory data analysis
 ├── src/                   # Source code including preprocessing, modeling, and utilities
 ├── models/                # Trained models, weights, or model configuration files
-├── output/                # Forecast results, logs, and plots
+├── outputs/               # Forecast results
 └── README.md              # Project overview and documentation
 ```
 </pre>
