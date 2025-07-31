@@ -17,9 +17,6 @@ Organisation: Centre for Epidemic Response and Innovation (CERI), School of Data
 A brief description of the contents and purpose of each folder and file in the repository:
 <pre>
 ```
-├── data/                  # Contains all datasets used for training and evaluation
-├── notebooks/             # Jupyter/R notebooks used for exploratory data analysis
-├── src/                   # Source code including preprocessing, modeling, and utilities
 ├── models/                # Trained models, weights, or model configuration files
 ├── outputs/               # Forecast results
 └── README.md              # Project overview and documentation
