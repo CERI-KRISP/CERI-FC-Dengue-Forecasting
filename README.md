@@ -1,4 +1,4 @@
-# Dengue Forecasting Model Repository
+# 2025 Sprint: 2nd Infodengue-Mosqlimate Dengue Challenge (IMDC)
 
 ## Team and Contributors
 
