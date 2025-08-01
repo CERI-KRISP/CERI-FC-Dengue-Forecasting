@@ -16,11 +16,9 @@ Organisation: Centre for Epidemic Response and Innovation (CERI), School of Data
 
 A brief description of the contents and purpose of each folder and file in the repository:
 <pre>
-```
-├── models/                # Trained models, weights, or model configuration files
+├── models/                # Trained models
 ├── outputs/               # Forecast results
 └── README.md              # Project overview and documentation
-```
 </pre>
 
 
@@ -49,7 +47,6 @@ A list of all libraries and packages used to process the data and train your mod
 
 ### Datasets and variables used
 - Dengue.csv
-
 - Climate.csv  
 
 ### Data preprocessing
@@ -64,9 +61,7 @@ Predictors were chosen based on optimal model performances by trial-and-error. F
 
 ### Training details
 - Describe model architecture or algorithms used.
-    
 - Specify any cross-validation or time series split methods.
-
 - For the random forest model, we ran a random forest regresion of 1000 iterations with the state as a fixed effect. 
 
 ### Hyperparameter optimization
@@ -80,7 +75,6 @@ Predictors were chosen based on optimal model performances by trial-and-error. F
 ## Data Usage Restriction
 
 - Forecasts from EW 41 (year N) to EW 40 (year N+1) are based **only** on data up to EW 25 (year N).
-  
 - Describe how this was enforced in preprocessing or model training.
 
 ---
