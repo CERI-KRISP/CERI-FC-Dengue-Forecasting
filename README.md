@@ -57,7 +57,7 @@ A list of all libraries and packages used to process the data and train the mode
 ### Data Preprocessing
 
 - **Random Forest**: Climate predictors (median temperature, precipitation, and relative humidity) were lagged by 8 weeks and joined with the dengue case data. States were grouped into 4 climate similarity clusters using hierarchical clustering based on average climate features. Weekly seasonality was encoded using sine and cosine transformations of the epidemiological week. Final predictions were smoothed using a centered rolling mean over a 16-week window.  
-- **LSTM**: Models were trained using sequences of weekly dengue case counts (with optional inclusion of lagged climate covariates), structured into input windows. Unlike RF, LSTM did not use clustering or spatial groupings. Time steps were set to 16 weeks.  
+- **LSTM**: Models were trained using sequences of weekly dengue case counts (with optional inclusion of lagged climate covariates), structured into input windows. Unlike RF, LSTM did not use clustering or spatial groupings. Time steps were set to 52 weeks.  
 - **Ensemble**: Predictions from RF and LSTM were evaluated per state, and the model with the lowest error (based on RMSE) was selected as the final ensemble prediction for that state.
 
 ### Variable Selection
@@ -80,7 +80,6 @@ A list of all libraries and packages used to process the data and train the mode
 
 - **LSTM**  
   - Implemented using `keras` with `tensorflow` backend in R  
-  - Input sequences of 16 weeks used to predict the next week  
   - Standard LSTM architecture: 1 hidden LSTM layer with 64 units, followed by a dense output layer  
   - Trained with Adam optimizer, mean squared error loss, and early stopping  
   - Validation based on walk-forward strategy over test periods  
@@ -96,7 +95,7 @@ A list of all libraries and packages used to process the data and train the mode
   - No grid search required; performance evaluated empirically  
 
 - **LSTM**  
-  - Manual tuning of number of LSTM units (32–128), batch size (16–64), and input window size (fixed at 16)  
+  - Manual tuning of number of LSTM units (32–128), batch size (16–64), and input window size (fixed at 52)  
   - Early stopping used to prevent overfitting  
 
 ---
