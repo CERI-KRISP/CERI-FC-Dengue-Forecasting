@@ -104,8 +104,7 @@ A list of all libraries and packages used to process the data and train the mode
 ## Training Code
 
 - All model training scripts can be found under the `models/` directory.  
-- Separate R scripts are provided for Random Forest and LSTM training.  
-- Ensemble selection and smoothing code is provided in the preprocessing script under `outputs/`.
+- Separate R scripts are provided for Random Forest and LSTM training.
 
 ---
 
