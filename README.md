@@ -4,7 +4,7 @@
 
 **CERI Forecasting Club**
 
-*Team members: Jenicca Poongavanan, Monika Moir, Gaspary Mwanyika, Graeme Dor, Houriiyah Tegally* 
+*Team members: Jenicca Poongavanan, Deselew Moges, Monika Moir, Gaspary Mwanyika, Graeme Dor, Houriiyah Tegally* 
 
 <sub>
 Organisation: Centre for Epidemic Response and Innovation (CERI), School of Data Science and Computational Thinking, Stellenbosch University, Stellenbosch, South Africa
